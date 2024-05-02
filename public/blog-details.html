@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Solar Solution Expert</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!--         <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800;900&display=swap" rel="stylesheet">
+            <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css" rel="stylesheet">
+  </head>
+  <body id="page-top">
+    <!-- Masthead-->
+    <header class="masthead sub-masthead sub-masthead2">
+      <div class="container">
+        <!-- Navigation-->
+       <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+       <div class="container">
+            <a class="navbar-brand" style="margin-left: 0"  href="index.html">
+              <img src="assets/img/logo.png" class="white-logo" style="width: 60px;margin-right: 15px">
+              <img src="assets/img/black-logo.png" class="black-logo" style="width: 60px;margin-right: 15px;">
+              <div class="logo-bar">
+                <h2>Bernard Rimpel</h2>
+                <p class="mb-0">Your Trusted Solar Solution Expert</p>
+              </div>
+            </a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home</a></li>
+                <li class="nav-item mx-0 mx-lg-1 nav-item dropdown">
+                  <a class="nav-link dropdown-toggle nav-link py-3 px-0 px-lg-3 rounded" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="solar-panel-installations.html">Solar Panel Installations</a></li>
+                    <li><a class="dropdown-item" href="solar-battery.html">Solar Battery</a></li>
+                    <li><a class="dropdown-item" href="roof-mount-installations.html">Roof Mount installations</a></li>
+                    <li><a class="dropdown-item" href="ground-mount-installations.html">Ground Mount installations</a></li>
+                    <li><a class="dropdown-item" href="commercial-installations.html">Commercial Installations</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1"><a class=" nav-link py-3 px-0 px-lg-3 rounded" href="about-us.html">About Us</a></li>
+                <li class="nav-item mx-0 mx-lg-1 active"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="blog.html">Blog</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact-us.html">Contact Us</a></li>
+                
+              </ul>
+              <div class="position-relative">
+                <button class="toggleBar" onclick="toggleBox()"><i class="fa-solid fa-bars"></i></button>
+                <div id="myBox">
+                  <!-- Close Button -->
+                  <button onclick="closeBox()" class="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+                  <a class="navbar-brand mb-4" href="index.html">
+                    <img src="assets/img/black-logo.png" style="width: 35px;margin-right: 15px">
+                    <div class="logo-bar toggleBoxBar">
+                      <h2>Bernard Rimpel</h2>
+                      <p>Your Trusted Solar Solution Expert</p>
+                    </div>
+                  </a>
+                  <div class="contactDetails">
+                    <div class="contactSingle">
+                      <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                      <h5>31 Wilcox St Fall River MA 02724</h5>
+                    </div>
+                    <div class="contactSingle">
+                      <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                      <h5>+62 - 8589654785</h5>
+                    </div>
+                    <div class="contactSingle">
+                      <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                      <h5>support@domain.com</h5>
+                    </div>
+                  </div>
+                  <div class="footer_contacts pb-0">
+                    <div class="footer_soc_icons">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="copy_text">
+                      <h6>Copyright@2023</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </nav>
+      </div>
+      <div class="container">
+        <div class="sub-masthead-wrap" style="padding-bottom: 150px">
+          <div class="row align-items-center">
+            <div class="col-lg-12 text-center">
+              <h1 class="subpage-heading">
+                The Environmental Impact <br>
+                of Solar Energy
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="page-section pt-0 pb-0 sse_blog_Details">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="blog-card" style="position: relative;">
+            <img src="assets/img/man-worker-firld-by.png">
+            <h2 class="mb-4">Empowering a Sustainable Future <br>
+              with Solar Energy
+            </h2>
+            <p>Empowering a sustainable future with solar energy is a transformative journey towards environmental stewardship 
+              and energy resilience. As we stand at the crossroads of addressing climate change and seeking cleaner alternatives, 
+              solar energy emerges as a beacon of hope and a catalyst for positive change. By harnessing the power of the sun, 
+              we unlock a virtually boundless and renewable energy source that not only mitigates the environmental impact of 
+              traditional energy methods but also propels us towards a more sustainable and regenerative future.
+            </p>
+            <p>The deployment of solar energy systems represents a tangible commitment to reducing carbon emissions, diminishing 
+              our reliance on finite fossil fuels, and ushering in an era of energy independence. Solar panels, with their silent and 
+              emissions-free operation, serve as silent champions in the quest for cleaner air and water, contributing to improved 
+              environmental quality and public health. The integration of solar solutions into our daily lives and infrastructures not 
+              only reduces our carbon footprint but also fosters a sense of responsibility towards the planet, encouraging a 
+              collective shift towards more sustainable practices.
+            </p>
+            <div class="sse_blog_bold_info">
+              <p>With a passion for renewable energy and a commitment to sustainable living, 
+                your go-to Solar Agent. I specialize in helping homeowners and businesses harness the 
+                power of the sun to save money, reduce their carbon footprint, and achieve energy 
+                independence. With years of experience in the solar industry, I am dedicated to providing 
+                tailored solutions that make a difference.
+              </p>
+              <p>Bernard Rimpel  - CEO </p>
+            </div>
+            <div class="blog-inner-img">
+              <img src="assets/img/blog-inner--1.png">
+              <img src="assets/img/blog-inner-2.png">
+            </div>
+            <p>The narrative of solar energy transcends a mere technological shift; it becomes a narrative of empowerment, 
+              resilience, and a shared commitment to preserving the planet for future generations.
+            </p>
+            <p>In conclusion, empowering a sustainable future with solar energy is not merely a technological transition but a 
+              paradigm shift towards responsible and forward-thinking energy practices. It is an investment in environmental 
+              preservation, economic vitality, and a legacy of sustainability for generations to come. As we embrace the 
+              potential of solar energy, we illuminate a path towards a brighter and more resilient future for our planet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section sse-subscribe-area">
+      <div class="container">
+        <div class="subscribe-card">
+          <div class="row align-items-center">
+            <div class="col-lg-7">
+              <p>Get Latest Updates &amp; Special Offers</p>
+            </div>
+            <div class="col-lg-5">
+              <form>
+                <div class="sub-form">
+                  <input type="text" class="form-control" name="" placeholder="Enter your email">
+                  <button class="btn btn-warning">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="single-footer">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="single-footer">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="solar-panel-installations.html">Solar Panel Installations</a></li>
+                <li><a href="solar-battery.html">Solar Battery</a></li>
+                <li><a href="roof-mount-installations.html">Roof Mount installations</a></li>
+                <li><a href="ground-mount-installations.html">Ground Mount installations</a></li>
+                <li><a href="commercial-installations.html">Commercial Installations</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="single-footer">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="single-footer">
+              <h4>Contact Info</h4>
+              <ul class="contact-info">
+                <li>Need Help ? Email us</li>
+                <li><a href="mailto:support@domain.com">support@domain.com</a></li>
+              </ul>
+              <ul class="sse-social-media">
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row sse-copyright">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo.png">
+              <div class="logo-bar">
+                <h2>Bernard Rimpel</h2>
+                <p>Your Trusted Solar Solution Expert</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+            <p class="sse-copyright-text">Copyright@2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+      <i class="fa-solid fa-arrow-up"></i>
+    </svg>
+  </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+     <script>
+      // JavaScript to handle toggle and close functionality
+      function toggleBox() {
+        var box = document.getElementById('myBox');
+        box.style.display = (box.style.display === 'block') ? 'none' : 'block';
+      }
+      
+      function closeBox() {
+        var box = document.getElementById('myBox');
+        box.style.display = 'none';
+      }
+    </script>
+        <script type="text/javascript">
+      
+//Scroll back to top
+
+(function($) { "use strict";
+
+  $(document).ready(function(){"use strict";
+    
+    var progressPath = document.querySelector('.progress-wrap path');
+    var pathLength = progressPath.getTotalLength();
+    progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+    progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+    progressPath.style.strokeDashoffset = pathLength;
+    progressPath.getBoundingClientRect();
+    progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';    
+    var updateProgress = function () {
+      var scroll = $(window).scrollTop();
+      var height = $(document).height() - $(window).height();
+      var progress = pathLength - (scroll * pathLength / height);
+      progressPath.style.strokeDashoffset = progress;
+    }
+    updateProgress();
+    $(window).scroll(updateProgress); 
+    var offset = 50;
+    var duration = 550;
+    jQuery(window).on('scroll', function() {
+      if (jQuery(this).scrollTop() > offset) {
+        jQuery('.progress-wrap').addClass('active-progress');
+      } else {
+        jQuery('.progress-wrap').removeClass('active-progress');
+      }
+    });       
+    jQuery('.progress-wrap').on('click', function(event) {
+      event.preventDefault();
+      jQuery('html, body').animate({scrollTop: 0}, duration);
+      return false;
+    })
+    
+    
+  });
+  
+})(jQuery); 
+    </script>
+  </body>
+</html>

@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Solar Solution Expert</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!--         <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+        <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css" rel="stylesheet">
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="form.css" >
+
+      <script src="form.js"></script>
+  </head>
+  <body id="page-top">
+
+    <!-- Masthead-->
+       <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+       <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo.png" class="white-logo">
+              <img src="assets/img/black-logo.png" class="black-logo">
+              <div class="logo-bar">
+                <h2>Bernard Rimpel</h2>
+                <p class="mb-0">Your Trusted Solar Solution Expert</p>
+              </div>
+            </a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-bs-toggle="collapse"  data-bs-target="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="active nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home</a></li>
+                <li class="nav-item mx-0 mx-lg-1 nav-item dropdown">
+                  <a class="nav-link dropdown-toggle  py-3 px-0 px-lg-3 rounded" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="solar-panel-installations.html">Solar Panel Installations</a></li>
+                    <li><a class="dropdown-item" href="solar-battery.html">Solar Battery</a></li>
+                    <li><a class="dropdown-item" href="roof-mount-installations.html">Roof Mount installations</a></li>
+                    <li><a class="dropdown-item" href="ground-mount-installations.html">Ground Mount installations</a></li>
+                    <li><a class="dropdown-item" href="commercial-installations.html">Commercial Installations</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about-us.html">About Us</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="blog.html">Blog</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact-us.html">Contact Us</a></li>
+                
+              </ul>
+              <div class="">
+                <button class="toggleBar" onclick="toggleBox()"><i class="fa-solid fa-bars"></i></button>
+                <div id="myBox">
+                  <!-- Close Button -->
+                  <button onclick="closeBox()" class="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+                  <a class="navbar-brand mb-4" href="index.html">
+                    <img src="assets/img/black-logo.png" style="width: 35px;margin-right: 15px">
+                    <div class="logo-bar toggleBoxBar">
+                      <h2>Bernard Rimpel</h2>
+                      <p>Your Trusted Solar Solution Expert</p>
+                    </div>
+                  </a>
+                  <div class="contactDetails">
+                    <div class="contactSingle">
+                      <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                      <h5>31 Wilcox St Fall River MA 02724</h5>
+                    </div>
+                    <div class="contactSingle">
+                      <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                      <h5>+62 - 8589654785</h5>
+                    </div>
+                    <div class="contactSingle">
+                      <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                      <h5>support@domain.com</h5>
+                    </div>
+                  </div>
+                  <div class="footer_contacts pb-0">
+                    <div class="footer_soc_icons">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="copy_text">
+                      <h6>Copyright@2023</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </nav>
+
+    <header class="masthead text-white">
+      <div class="container-fluid">
+     
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="left-bg">
+            <img src="assets/img/man-worker-firld-by-solar-panelss.png" class="img-middle">
+            <div class="left-bg-image">
+            <img src="assets/img/man-worker-firld-by-solar-panels.png">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <!-- Navigation-->
+
+          <h1 class="masthead-heading mb-0">Powering the <br>
+            Future with <br>
+            Renewable Energy
+          </h1>
+          <!-- Masthead Subheading-->
+          <div class="masthead-subheading-text">
+            <div class="row align-items-center">
+              <div class="col-lg-8">
+                <p class="masthead-subheading font-weight-light mb-0 mt-3">Our solar panel company facilitates a seamless 
+                  transition to solar energy through our highly 
+                  efficient and budget-friendly solutions
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <div class="right_btns">
+                <a class="btn btn-warning custom-btn btn-14" href="about-us.html">Explore More -></a>
+                </div>
+              </div>
+            </div>
+<!--             <div class="bottom-imgs mt-5">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="assets/img/2.png">
+                </div>
+                <div class="col-lg-6">
+                  <img src="assets/img/1.png">
+                </div>
+              </div>
+            </div> -->
+             <div class="bottom-imgs mt-5">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="images-header">
+                  <img src="assets/img/2.png">
+                  <img src="assets/img/1.png">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="page-section portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3 class="heading-title">Green energy revolution</h3>
+            <p>With a passion for renewable energy and a
+              commitment to sustainable living, 
+              <br><strong style="color: #000">I am Bernard Rimpel ,</strong> 
+              your go-to Solar Agent. I specialize in helping 
+              homeowners and businesses harness the power 
+              of the sun to save money, reduce their carbon 
+              footprint, and achieve energy independence. 
+              With years of experience in the solar industry, 
+              I am dedicated to providing tailored solutions 
+              that make a difference.
+            </p>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="sse-revolution">
+                  <div class="sse-icon">
+                    <img src="assets/img/icons1.png">
+                  </div>
+                  <h3>Renewable <br>Energy Source</h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="sse-revolution">
+                  <div class="sse-icon">
+                    <img src="assets/img/icons2.png">
+                  </div>
+                  <h3>Save on Power <br>Bills</h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="sse-revolution">
+                  <div class="sse-icon">
+                    <img src="assets/img/icons3.png">
+                  </div>
+                  <h3>No Maintainence <br>Cost</h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="sse-revolution">
+                  <div class="sse-icon">
+                    <img src="assets/img/icons4.png">
+                  </div>
+                  <h3>Environment <br>Friendly</h3>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="sse-blue-card">
+                  <h3>Seamless Installation</h3>
+                  <p>Experience the seamless installation of solar panels, 
+                    effortlessly integrating sustainable energy solutions 
+                    into your environment.
+                  </p>
+                  <div class="circular_shape"></div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="sse-blue-card">
+                  <h3>Trusted by Big Companies</h3>
+                  <p>Our services exemplify reliability and excellence in 
+                    delivering sustainable energy solutions.
+                  </p>
+                  <div class="circular_shape"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="separator mt-4"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section pt-0 solutions-area">
+      <div class="container">
+      <div class="row">
+        <svg width="218" height="819" viewBox="0 0 218 819" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M212.377 310.945C250.738 -79.5594 83.4426 -21.1165 -5 56.918V819C51.4754 812.359 174.016 701.45 212.377 310.945Z" fill="#F38734" fill-opacity="0.49"/>
+        </svg>
+        <div class="col-lg-5">
+          <h3 class="heading-title">Our Best Solutions</h3>
+          <h2 class="section-title">We Offer Best <br>Renewable<br> Energy</h2>
+          <button class="btn btn-warning">All Services -></button>
+        </div>
+        <div class="col-lg-7">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <div class="sse-solutions-card">
+                <div class="hover-box">
+                  <img src="assets/img/s-1.png">
+                </div>
+                <h2>Roof Mount <br>Installation</h2>
+                <a href="roof-mount-installations.html" class="link-text">Learn more -></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <div class="sse-solutions-card">
+                <div class="hover-box">
+                <img src="assets/img/s-2.png">
+              </div>
+                <h2>Ground Mount Installation</h2>
+                <a href="ground-mount-installations.html" class="link-text">Learn more -></a>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <div class="sse-solutions-card">
+                <div class="hover-box">
+                <img src="assets/img/s-3.png">
+              </div>
+                <h2>Solar Battery</h2>
+                <a href="solar-battery.html" class="link-text">Learn more -></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <div class="sse-solutions-card">
+                <div class="hover-box">
+                <img src="assets/img/s-4.png">
+              </div>
+                <h2>Commercial Installations</h2>
+                <a href="commercial-installations.html" class="link-text">Learn more -></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section quote-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="sse-quate-form">
+           
+                           <form  role="form" method="post" id="reused_form">
+
+                              <div class="row clearfix">
+
+                                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+
+                                    <div class="input-outer">
+                                      <label>First name <span>*</span></label>
+
+                                       <input type="text" name="FirstName" id="fname2" placeholder="First Name" class="form-control" required="">
+
+                                    </div>
+
+                                 </div>
+
+                                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+
+                                    <div class="input-outer">
+<label>Last name <span>*</span></label>
+                                       <input type="text" name="LastName" id="lname2" placeholder="Last Name" required="" class="form-control">
+
+
+                                    </div>
+
+                                 </div>
+
+                                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+
+                                    <div class="input-outer">
+<label>Email  <span>*</span></label>
+                                       <input type="text" name="Email" class="form-control" id="email2" placeholder="Work Email" required="">
+
+
+                                    </div>
+
+                                 </div>
+
+
+
+                                 <div class="col-lg-6 col-md-12 col-sm-12 form-group">
+
+                                    <div class="input-outer">
+<label>Phone Number  <span>*</span></label>
+
+                                       <input type="text" name="PhoneNumber" id="pno2" placeholder="Phone Number" class="form-control" required="">
+
+                   
+                                    </div>
+
+                                 </div>
+
+
+                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+
+                                    <div class="input-outer">
+<label>Subject  <span>*</span></label>
+
+                                       <input type="text" name="Subject" id="sub2" placeholder="Subject" required="" class="form-control">
+
+
+                                    </div>
+
+                                 </div>
+
+                                                                  <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+
+                                    <div class="input-outer">
+<label>Message  <span>*</span></label>
+
+                                       <textarea type="textarea" name="Message" id="mes2" placeholder="Message" required="" class="form-control"></textarea>
+
+
+                                    </div>
+
+                                 </div>
+
+
+                                 <div class="col-lg-12   mt-3 col-md-12 col-sm-12 form-group text-center">
+
+                                    <button type="submit" class="btn btn-warning text-uppercase w-100"><span class="btn-title">Send message</button>
+
+                                 </div>
+
+                              </div>
+
+                           </form>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="heading-title-white">Get a quote</h3>
+            <h2 class="section-title-white mt-3">Let’s experience the power of the sun</h2>
+            <p class="text-grey">Lets connect and discuss about the process</p>
+            <ul class="quate-area-list">
+              <li>100% renewable content from wind or solar energy.</li>
+              <li>Free electricity during nights or weekends.</li>
+              <li>Access to local solar energy without the need to install 
+                rooftop panels.
+              </li>
+              <li>Resources to green up your life, including Tree Free Billing, 
+                carbon offsets and weekly summary email
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section why-choose-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="absolute-img">
+              <img src="assets/img/solar-panel.png">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="heading-title">why choose us?</h3>
+            <h2 class="section-title">The better source of energy for the better tomorrow</h2>
+            <p>Harnessing Superior Energy Sources for a Brighter Future</p>
+            <div class="row mt-5">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="sse-why-card">
+                  <div class="sse-why-icon">
+                    <img src="assets/img/why-icon-1.png">
+                  </div>
+                  <h2>Green & Eco Tech</h2>
+                  <p>The Rise of Green Solutions and Eco-Friendly Innovations</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="sse-why-card">
+                  <div class="sse-why-icon">
+                    <img src="assets/img/Support.png">
+                  </div>
+                  <h2>24/7 Support</h2>
+                  <p>The Rise of Green Solutions and Eco-Friendly Innovations</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="sse-why-card">
+                  <div class="sse-why-icon">
+                    <img src="assets/img/TeamDevelopment.png">
+                  </div>
+                  <h2>Expert Team Development</h2>
+                  <p>Architecting Success Through Team Expertise</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="sse-why-card">
+                  <div class="sse-why-icon">
+                    <img src="assets/img/SaveMoney.png">
+                  </div>
+                  <h2>Save Money</h2>
+                  <p>A Guide to Cutting Costs with Solar Panels</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section latest-projects-area p-0">
+        <div class="blue-full-card">
+      <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <h3 class="heading-title m-auto">Latest Projects</h3>
+              <h2 class="section-title-white">Showcase of Completed Projects</h2>
+              <p class="text-white">A Display of Successfully Completed Endeavors</p>
+            </div>
+            <div class="col-lg-12">
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div class="sse-latest-project">
+
+                    <div class="box17  sse-single-project">
+                      <img class="pic-1" src="assets/img/turbine-NK54AET 2.png">
+                      <div class="box-content">
+                <h5>Solar Panel Installations</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="sse-latest-project">
+                                      <div class="box17  sse-single-project">
+                      <img class="pic-1" src="assets/img/turbine-NK54AET 3.png">
+                      <div class="box-content">
+                <h5>Solar Panel Installations</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="sse-latest-project">
+                                      <div class="box17  sse-single-project">
+                      <img class="pic-1" src="assets/img/turbine-NK54AET 4.png">
+                      <div class="box-content">
+                <h5>Solar Panel Installations</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section sse-blogs-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h3 class="heading-title">Ultimate Blogs</h3>
+            <h2 class="section-title">Read Our Latest 
+              Blog and Articles
+            </h2>
+          </div>
+          <div class="col-lg-6" style="text-align: right;">
+            <a class="btn btn-warning" href="blog.html">View All Blogs  -></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+            <div class="single-blog">
+              <img src="assets/img/blog1.png">
+              <div class="blog-info">
+                <div class="blog-date"><span class="fa fa-clock pr-3"></span> Nov 12, 2023</div>
+                <div class="blog-title"><a href="blog-details.html">Solar energy is in developing nations</a></div>
+                <div class="blog-desc">
+                  In the pursuit of sustainable and accessible energy 
+                  solutions, developing nations are increasingly 
+                  turning to solar power as a beacon of hope. 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+            <div class="sse-blog blog-list">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-6 col-12">
+                  <div class="hover-blog">
+                  <div class="one-blog">
+                  <img src="assets/img/blog2.png">
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12">
+                  <div class="sse-blog-info">
+                    <div class="blog-date text_grey"><span class="fa fa-clock pr-3"></span> Nov 12, 2023</div>
+                    <div class="blog-title">Solar energy is in developing nations</div>
+                    <div class="blog-desc">
+                      In the pursuit of sustainable and accessible energy 
+                      solutions, developing nations are increasingly 
+                      turning to solar power as a beacon of hope. 
+                    </div>
+                    <a  href="blog-details.html" class="link-text">Learn more -&gt;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sse-blog">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-6 col-12">
+                  <div class="hover-blog">
+                  <div class="one-blog">
+                  <img src="assets/img/blogs2.png">
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12">
+                  <div class="sse-blog-info">
+                    <div class="blog-date text_grey"><span class="fa fa-clock pr-3"></span> Nov 12, 2023</div>
+                    <div class="blog-title">Solar energy is in developing nations</div>
+                    <div class="blog-desc">
+                      In the pursuit of sustainable and accessible energy 
+                      solutions, developing nations are increasingly 
+                      turning to solar power as a beacon of hope. 
+                    </div>
+                    <a  href="blog-details.html" class="link-text">Learn more -&gt;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sse-blog">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-6 col-12">
+                  <div class="hover-blog">
+                  <div class="one-blog">
+                     <img src="assets/img/blog3.png">
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12">
+                  <div class="sse-blog-info">
+                    <div class="blog-date text_grey"><span class="fa fa-clock pr-3"></span> Nov 12, 2023</div>
+                    <div class="blog-title">Solar energy is in developing nations</div>
+                    <div class="blog-desc">
+                      In the pursuit of sustainable and accessible energy 
+                      solutions, developing nations are increasingly 
+                      turning to solar power as a beacon of hope. 
+                    </div>
+                    <a  href="blog-details.html" class="link-text">Learn more -&gt;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section clients-feed-area">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h3 class="heading-title m-auto">Client Feedbacks</h3>
+            <h2 class="section-title-white">What People Say About US</h2>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-7">
+            <div class="sse-single-testimonials">
+              <p>"We are extremely satisfied with the solar installation 
+                from Bernard Rimpel Solar Panel Company. The team was 
+                highly professional and delivered exceptional service 
+                throughout the entire process. Our energy bills have 
+                significantly decreased, and we are thrilled to be contributing 
+                to a greener planet. Thank you for making the transition to 
+                solar energy a smooth and rewarding experience!"
+              </p>
+              <div class="clients-rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="clients-info">
+                <img src="assets/img/client-1.png">
+                <div class="client-desc">
+                  <h4>Angelica Grover</h4>
+                  <p>Entrepreneur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+
+<div class="testimonial-slider" style="overflow: hidden;">
+  <div class="testimonial">
+                <div class="sse-single-testimonials sse-mult-testimonials">
+
+              <p>"Bernard Rimpel  Solutions provided 
+                outstanding service and expertise 
+                throughout our solar installation journey. 
+                Their team was friendly, professional, 
+                and reliable."
+              </p>
+              <div class="clients-info">
+                <img src="assets/img/c-2.png">
+                <div class="client-desc">
+                  <h4>Angelica Grover</h4>
+                  <p>Entrepreneur</p>
+                </div>
+              </div>
+            </div>
+  </div>
+  <div class="testimonial">
+            <div class="sse-single-testimonials sse-mult-testimonials">
+              <p>"Bernard Rimpel  Solutions provided 
+                outstanding service and expertise 
+                throughout our solar installation journey. 
+                Their team was friendly, professional, 
+                and reliable."
+              </p>
+              <div class="clients-info">
+                <img src="assets/img/c-2.png">
+                <div class="client-desc">
+                  <h4>Angelica Grover</h4>
+                  <p>Entrepreneur</p>
+                </div>
+              </div>
+            </div>
+  </div>
+    <div class="testimonial">
+            <div class="sse-single-testimonials sse-mult-testimonials">
+              <p>"Bernard Rimpel  Solutions provided 
+                outstanding service and expertise 
+                throughout our solar installation journey. 
+                Their team was friendly, professional, 
+                and reliable."
+              </p>
+              <div class="clients-info">
+                <img src="assets/img/c-2.png">
+                <div class="client-desc">
+                  <h4>Angelica Grover</h4>
+                  <p>Entrepreneur</p>
+                </div>
+              </div>
+            </div>
+  </div>
+</div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section sse-subscribe-area">
+      <div class="container">
+        <div class="subscribe-card">
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+              <p>Get Latest Updates & Special Offers</p>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+              <form  role="form" method="post" id="reused_form2">
+                <div class="sub-form">
+                  <input type="text"  class="form-control"  name="Email" id="email3"  placeholder="Enter your email">
+                  <button class="btn btn-warning" type="submit">Subscribe</button>
+                </div>
+              </form>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="single-footer">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="single-footer">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="solar-panel-installations.html">Solar Panel Installations</a></li>
+                <li><a href="solar-battery.html">Solar Battery</a></li>
+                <li><a href="roof-mount-installations.html">Roof Mount installations</a></li>
+                <li><a href="ground-mount-installations.html">Ground Mount installations</a></li>
+                <li><a href="commercial-installations.html">Commercial Installations</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="single-footer">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="single-footer">
+              <h4>Contact Info</h4>
+              <ul class="contact-info">
+                <li>Need Help ? Email us</li>
+                <li><a href="mailto:support@domain.com">support@domain.com</a></li>
+              </ul>
+              <ul class="sse-social-media">
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row sse-copyright">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo.png">
+              <div class="logo-bar">
+                <h2>Bernard Rimpel</h2>
+                <p>Your Trusted Solar Solution Expert</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+            <p class="sse-copyright-text">Copyright@2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+      <i class="fa-solid fa-arrow-up"></i>
+    </svg>
+  </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script>
+      // JavaScript to handle toggle and close functionality
+      function toggleBox() {
+        var box = document.getElementById('myBox');
+        box.style.display = (box.style.display === 'block') ? 'none' : 'block';
+      }
+      
+      function closeBox() {
+        var box = document.getElementById('myBox');
+        box.style.display = 'none';
+      }
+    </script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Slick Slider CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    // Testimonial slider
+    $('.testimonial-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      infinite: true,
+      cssEase: 'linear',
+      speed: 2000,
+      vertical: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      rows: 2,
+      responsive: [
+        {
+          breakpoint: 1024, // Tablet breakpoint
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            vertical: false,
+            rows: 1
+          }
+        },
+        {
+          breakpoint: 767, // Mobile breakpoint
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            vertical: false,
+            rows: 1
+          }
+        }
+      ]
+    });
+  });
+</script>
+
+    <script type="text/javascript">
+      
+//Scroll back to top
+
+(function($) { "use strict";
+
+  $(document).ready(function(){"use strict";
+    
+    var progressPath = document.querySelector('.progress-wrap path');
+    var pathLength = progressPath.getTotalLength();
+    progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+    progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+    progressPath.style.strokeDashoffset = pathLength;
+    progressPath.getBoundingClientRect();
+    progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';    
+    var updateProgress = function () {
+      var scroll = $(window).scrollTop();
+      var height = $(document).height() - $(window).height();
+      var progress = pathLength - (scroll * pathLength / height);
+      progressPath.style.strokeDashoffset = progress;
+    }
+    updateProgress();
+    $(window).scroll(updateProgress); 
+    var offset = 50;
+    var duration = 550;
+    jQuery(window).on('scroll', function() {
+      if (jQuery(this).scrollTop() > offset) {
+        jQuery('.progress-wrap').addClass('active-progress');
+      } else {
+        jQuery('.progress-wrap').removeClass('active-progress');
+      }
+    });       
+    jQuery('.progress-wrap').on('click', function(event) {
+      event.preventDefault();
+      jQuery('html, body').animate({scrollTop: 0}, duration);
+      return false;
+    })
+    
+    
+  });
+  
+})(jQuery); 
+    </script>
+  </body>
+</html>
